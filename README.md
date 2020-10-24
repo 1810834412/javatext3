@@ -11,11 +11,11 @@
 ##二、业务要求
 1.说明：学校有“人员”，分为“教师”和“学生”，教师教授“课程”，学生选择“课程”。从简化系统考虑，每名教师仅教授一门课程，每门课程的授课教师也仅有一位，每名学生选仅选一门课程。
 2.对象：Person(ID、name、sex)
-        ###Student i(ID:5,name:杰木,sex:男)
-        ###Teacher a(ID:1,name:袁潇芸,sex:女,taught:生物进化论)
-        ###Teacher b(ID:2,name:高亮,sex:男,taught:战争心理学)
-        ###Teacher c(ID:3,name:董梓潇,sex:男,taught:演讲口才与公众表达)
-        ###Teacher d(ID:4,name:贾忱健,sex:男,taught:动物肢体语言学)
+        Student i(ID:5,name:杰木,sex:男)
+        Teacher a(ID:1,name:袁潇芸,sex:女,taught:生物进化论)
+        Teacher b(ID:2,name:高亮,sex:男,taught:战争心理学)
+        Teacher c(ID:3,name:董梓潇,sex:男,taught:演讲口才与公众表达)
+        Teacher d(ID:4,name:贾忱健,sex:男,taught:动物肢体语言学)
 Curriculum e(ID:YXY-HZ,title:生物进化论,place:教100,time:7:50-9:40,a.name,a.sex)
 Curriculum f(ID:GL-CS,title:战争心理学,place:教101,time:9:40-12:05,a.name,a.sex)
 Curriculum g(ID:DZX-LZR,title:演讲口才与公众表达,place:教102,time:13:30-15:05,a.name,a.sex)
