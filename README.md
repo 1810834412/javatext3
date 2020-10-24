@@ -47,7 +47,7 @@
 ![实验运行截图](https://github.com/1810834412/javatext3/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 ## 六、核心代码
 ### Student类：
- Student(int ID,String name,String sex){
+     Student(int ID,String name,String sex){
        super(ID,name,sex);
     }
     public void setSelected1(Curriculum selected){
@@ -62,12 +62,12 @@
     public void setSelected4(Curriculum selected){
         this.selected4=selected;
 ### Person类：
- Person(int ID,String name,String sex){
+     Person(int ID,String name,String sex){
         this.ID=ID;
         this.name=name;
         this.sex=sex;
 ### Curriculum类：
- Curriculum(String ID,String title,String place,String time,String tcr,String tsex){
+     Curriculum(String ID,String title,String place,String time,String tcr,String tsex){
         this.ID=ID;
         this.title=title;
         this.place=place;
@@ -76,13 +76,13 @@
         this.tsex=tsex;
     }
 ### Teacher类：
- Teacher(int ID, String name, String sex,String taught) {
+     Teacher(int ID, String name, String sex,String taught) {
         super(ID, name, sex);
         this.taught=taught;
     }
 ### Text类：
 #### 选课：
-System.out.println("请输入要选课程的数量:");
+    System.out.println("请输入要选课程的数量:");
         int k= scan.nextInt();
         while (k>4&&k<0){
             System.out.println("您输入有误请重新输入");
@@ -186,7 +186,7 @@ System.out.println("请输入要选课程的数量:");
             y=y+1;
         }
 #### 退课：
-System.out.println("是否退课：（1是，2否）");
+    System.out.println("是否退课：（1是，2否）");
         int x=scan.nextInt();
         if(x==1) {
             System.out.println("请输入要退课程的数量:");
